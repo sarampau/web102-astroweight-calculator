@@ -6,14 +6,16 @@ h1 {
 }
 
 #container {
-    display: inline-block;
-    flex-direction: row;
-    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    /* width: 500px; */
+    margin-top: 100px;
     margin-left: 100px;
 }
 
 #weight-container {
-    float: left;
+    /* display: flex;
+    justify-content: space-around; */
     margin-left: 20px;
     font-family: Play;
 }
@@ -25,8 +27,8 @@ h1 {
 }
 
 #planet-container {
-    float: right;
-    margin-right: 20px;
+    /* float: right; */
+    /* margin-right: 20px; */
     font-family: Play
 }
 
@@ -46,4 +48,15 @@ h1 {
     justify-content: center;
     width: 300px;
     height: 40px;
+}
+
+#new-planet-container {
+    /* display: flex; */
+    /* flex-direction: row; */
+    height: 30px;
+    /* float: right; */
+}
+
+#new-planet-button {
+    width: 100px;
 }
